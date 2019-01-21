@@ -23,5 +23,10 @@ namespace SpecFlow
         {
             Debug.WriteLine("LoginTOApplication ");
         }
+        [TestMethod]
+        public void Compose()
+        {
+            Debug.WriteLine("Compose Mail ");
+        }
     }
 }
