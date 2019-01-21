@@ -12,5 +12,10 @@ namespace SpecFlow
         {
             Debug.WriteLine("HelloWorld");
         }
+        [TestMethod]
+        public void LaunchApplication()
+        {
+            Debug.WriteLine("Launch Application");
+        }
     }
 }
