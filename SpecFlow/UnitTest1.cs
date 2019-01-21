@@ -15,7 +15,7 @@ namespace SpecFlow
         [TestMethod]
         public void LaunchApplication()
         {
-            Debug.WriteLine("Launch Application");
+            Debug.WriteLine("Launch Application ");
         }
     }
 }
