@@ -17,5 +17,11 @@ namespace SpecFlow
         {
             Debug.WriteLine("Launch Application ");
         }
+
+        [TestMethod]
+        public void LoginTOApplication()
+        {
+            Debug.WriteLine("LoginTOApplication ");
+        }
     }
 }
