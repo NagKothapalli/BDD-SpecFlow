@@ -10,7 +10,7 @@ namespace SpecFlow
         [TestMethod]
         public void TestMethod1()
         {
-            Debug.WriteLine("HelloWorld");
+            Debug.WriteLine("Hello  Java World");
         }
         [TestMethod]
         public void LaunchApplication()
