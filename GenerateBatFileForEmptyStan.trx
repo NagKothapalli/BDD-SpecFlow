@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d9ce5fea-13bc-49ef-ac71-802f8ab2be4a" name="nk185128@WINNK185128-8AE 2019-01-22 18:16:54" runUser="CORP\nk185128" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="789c1be6-4408-4608-8128-5471ecaab726">
+    <Deployment userDeploymentRoot="C:\WorkSpace\C-Sharp\BDD" useDefaultDeploymentRoot="false" runDeploymentRoot="nk185128_WINNK185128-8AE 2019-01-22 18_16_54" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-01-22T18:16:54.7289515+05:30" queuing="2019-01-22T18:16:55.2884861+05:30" start="2019-01-22T18:16:55.3797306+05:30" finish="2019-01-22T18:16:55.8069057+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Compose" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="dc794b19-b105-f532-670c-7dec090fe3fa">
+      <Execution id="a6348d6f-9bba-42ea-ad92-9ba3aceaf32a" />
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.UnitTest1, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compose" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dc794b19-b105-f532-670c-7dec090fe3fa" executionId="a6348d6f-9bba-42ea-ad92-9ba3aceaf32a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6348d6f-9bba-42ea-ad92-9ba3aceaf32a" testId="dc794b19-b105-f532-670c-7dec090fe3fa" testName="Compose" computerName="WINNK185128-8AE" duration="00:00:00.0092413" startTime="2019-01-22T18:16:55.4288963+05:30" endTime="2019-01-22T18:16:55.7647728+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6348d6f-9bba-42ea-ad92-9ba3aceaf32a">
+      <Output>
+        <DebugTrace>Launch Application 
+LoginTOApplication 
+Compose Mail 
+LogoutFromApplication  
+CloseApplication 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

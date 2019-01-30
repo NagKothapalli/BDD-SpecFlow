@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="426b89b0-2c60-4d54-a9e3-c16160d4c728" name="nk185128@WINNK185128-8AE 2019-01-22 19:21:40" runUser="CORP\nk185128" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6d172c05-af52-42ff-b8a9-08b89b97d663">
+    <Deployment userDeploymentRoot="C:\WorkSpace\C-Sharp\BDD\SpecFlow\Results\01-22-2019_07-21 PM" useDefaultDeploymentRoot="false" runDeploymentRoot="nk185128_WINNK185128-8AE 2019-01-22 19_21_40" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-01-22T19:21:40.5681923+05:30" queuing="2019-01-22T19:21:41.0243773+05:30" start="2019-01-22T19:21:41.1236424+05:30" finish="2019-01-22T19:21:41.5397551+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Reply" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="fcf79dd0-a953-164a-d99b-9d643d71fe57">
+      <Execution id="b96dcb77-363f-43cd-99e9-145ee5f381c1" />
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.UnitTest1, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Reply" />
+    </UnitTest>
+    <UnitTest name="Compose" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="dc794b19-b105-f532-670c-7dec090fe3fa">
+      <Execution id="11d2043a-4da9-436c-a9f8-2a65b93c966b" />
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.UnitTest1, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compose" />
+    </UnitTest>
+    <UnitTest name="Forward" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="bc125728-aa8a-46c2-9f1b-129faab2f390">
+      <Execution id="3dd02bac-2f34-45bb-8ec9-93564409484a" />
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.UnitTest1, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Forward" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dc794b19-b105-f532-670c-7dec090fe3fa" executionId="11d2043a-4da9-436c-a9f8-2a65b93c966b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc125728-aa8a-46c2-9f1b-129faab2f390" executionId="3dd02bac-2f34-45bb-8ec9-93564409484a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcf79dd0-a953-164a-d99b-9d643d71fe57" executionId="b96dcb77-363f-43cd-99e9-145ee5f381c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="11d2043a-4da9-436c-a9f8-2a65b93c966b" testId="dc794b19-b105-f532-670c-7dec090fe3fa" testName="Compose" computerName="WINNK185128-8AE" duration="00:00:00.0100947" startTime="2019-01-22T19:21:41.1547277+05:30" endTime="2019-01-22T19:21:41.4906240+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11d2043a-4da9-436c-a9f8-2a65b93c966b">
+      <Output>
+        <DebugTrace>Launch Application 
+LoginTOApplication 
+Compose Mail 
+LogoutFromApplication  
+CloseApplication 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3dd02bac-2f34-45bb-8ec9-93564409484a" testId="bc125728-aa8a-46c2-9f1b-129faab2f390" testName="Forward" computerName="WINNK185128-8AE" duration="00:00:00.0003667" startTime="2019-01-22T19:21:41.4916258+05:30" endTime="2019-01-22T19:21:41.4936312+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dd02bac-2f34-45bb-8ec9-93564409484a">
+      <Output>
+        <DebugTrace>Launch Application 
+LoginTOApplication 
+Forward Mail 
+LogoutFromApplication  
+CloseApplication 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b96dcb77-363f-43cd-99e9-145ee5f381c1" testId="fcf79dd0-a953-164a-d99b-9d643d71fe57" testName="Reply" computerName="WINNK185128-8AE" duration="00:00:00.0008995" startTime="2019-01-22T19:21:41.4946355+05:30" endTime="2019-01-22T19:21:41.4976468+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b96dcb77-363f-43cd-99e9-145ee5f381c1">
+      <Output>
+        <DebugTrace>Launch Application 
+LoginTOApplication 
+Reply Mail 
+LogoutFromApplication  
+CloseApplication 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
