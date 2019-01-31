@@ -25,6 +25,27 @@ namespace SpecFlow.Steps
             Console.WriteLine("Forward ToAnMail WithoutAttachment");
         }
 
+        [Given(@"I Saw The Inbox")]
+        public void GivenISawTheInbox()
+        {
+            Debug.WriteLine("I Saw The Inbox");
+            Console.WriteLine("I Saw The Inbox");
+        }
+
+        [When(@"I Saw it is correct")]
+        public void WhenISawItIsCorrect()
+        {
+            Debug.WriteLine("I Saw it is correct");
+            Console.WriteLine("I Saw it is correct");
+        }
+
+        [Then(@"I Saw that it Sent")]
+        public void ThenISawThatItSent()
+        {
+            Debug.WriteLine("I Saw that it Sent");
+            Console.WriteLine("I Saw that it Sent");
+        }
+
 
 
     }

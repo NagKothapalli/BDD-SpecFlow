@@ -41,6 +41,49 @@ namespace SpecFlow
             Console.WriteLine("ComposeAndSendMail WithAttachment");
         }
 
+        [Given(@"I Launched Application '(.*)'")]
+        public void GivenILaunchedApplication(string URL)
+        {
+            Console.WriteLine("URL :" + URL);
+        }
+
+        [When(@"I Enter UserName '(.*)'")]
+        public void WhenIEnterUserName(string UserName)
+        {
+            Console.WriteLine("UserName :" + UserName);
+        }
+
+        [When(@"I Enter PassWord'(.*)'")]
+        public void WhenIEnterPassWord(string PassWord)
+        {
+            Console.WriteLine("PassWord :" + PassWord);
+        }
+
+        [Then(@"I Should Login")]
+        public void ThenIShouldLogin()
+        {
+            Console.WriteLine("I Should Login");
+        }
+
+        [Given(@"I Called The '(.*)'")]
+        public void GivenICalledThe(string URL)
+        {
+            Console.WriteLine("URL:" + URL);
+        }
+
+        [When(@"I Enter The UserName '(.*)'")]
+        public void WhenIEnterTheUserName(string UserName)
+        {
+            Console.WriteLine("UserName:" + UserName);
+        }
+
+        [When(@"I Enter The PassWord '(.*)'")]
+        public void WhenIEnterThePassWord(string PassWord)
+        {
+            Console.WriteLine("PassWord:" + PassWord);
+        }
+
+
 
     }
 }

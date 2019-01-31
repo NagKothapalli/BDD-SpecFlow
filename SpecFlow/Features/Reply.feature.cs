@@ -67,11 +67,11 @@ namespace SpecFlow.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ReplyToAnEmail Without Attachment", new string[] {
-                "Smoke"}, SourceLine=2)]
+                "Regression"}, SourceLine=2)]
         public virtual void ReplyToAnEmailWithoutAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ReplyToAnEmail Without Attachment", null, new string[] {
-                        "Smoke"});
+                        "Regression"});
 #line 3
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -86,11 +86,11 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ReplyToAnEmail With Attachment", new string[] {
-                "Smoke"}, SourceLine=7)]
+                "Regression"}, SourceLine=7)]
         public virtual void ReplyToAnEmailWithAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ReplyToAnEmail With Attachment", null, new string[] {
-                        "Smoke"});
+                        "Regression"});
 #line 8
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();

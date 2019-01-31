@@ -67,38 +67,48 @@ namespace SpecFlow.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ForwardAnEmail Without Attachment", new string[] {
-                "Regression"}, SourceLine=2)]
+                "Regression",
+                "Smoke"}, SourceLine=2)]
         public virtual void ForwardAnEmailWithoutAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ForwardAnEmail Without Attachment", null, new string[] {
-                        "Regression"});
+                        "Regression",
+                        "Smoke"});
 #line 3
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 4
  testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
- testRunner.When("I Forward An Mail WithoutAttachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("I Saw The Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 6
+ testRunner.When("I Forward An Mail WithoutAttachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 7
+ testRunner.And("I Saw it is correct", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 8
  testRunner.Then("I Could see the sent mesage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 9
+ testRunner.And("I Saw that it Sent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ForwardAnEmail With Attachment", new string[] {
-                "Regression"}, SourceLine=7)]
+                "Regression",
+                "Smoke"}, SourceLine=10)]
         public virtual void ForwardAnEmailWithAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ForwardAnEmail With Attachment", null, new string[] {
-                        "Regression"});
-#line 8
+                        "Regression",
+                        "Smoke"});
+#line 11
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 9
+#line 12
  testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 10
+#line 13
  testRunner.When("I Forward An Mail WithAttachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 11
+#line 14
  testRunner.Then("I Could see the sent mesage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

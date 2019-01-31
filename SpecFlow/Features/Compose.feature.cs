@@ -67,11 +67,13 @@ namespace SpecFlow.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ComposeAndSendAnEmail Without Attachment", new string[] {
-                "Smoke"}, SourceLine=2)]
+                "Smoke",
+                "Regression"}, SourceLine=2)]
         public virtual void ComposeAndSendAnEmailWithoutAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ComposeAndSendAnEmail Without Attachment", null, new string[] {
-                        "Smoke"});
+                        "Smoke",
+                        "Regression"});
 #line 3
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -86,11 +88,13 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ComposeAndSendAnEmail With Attachment", new string[] {
-                "Smoke"}, SourceLine=7)]
+                "Smoke",
+                "Regression"}, SourceLine=7)]
         public virtual void ComposeAndSendAnEmailWithAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ComposeAndSendAnEmail With Attachment", null, new string[] {
-                        "Smoke"});
+                        "Smoke",
+                        "Regression"});
 #line 8
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -102,6 +106,67 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Then("I Could see the sent mesage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("ParameterizedLogin", new string[] {
+                "Parameter"}, SourceLine=12)]
+        public virtual void ParameterizedLogin()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ParameterizedLogin", null, new string[] {
+                        "Parameter"});
+#line 13
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 14
+testRunner.Given("I Launched Application \'https://gmail.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 15
+testRunner.When("I Enter UserName \'nag022\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 16
+testRunner.And("I Enter PassWord\'mar1234\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 17
+testRunner.Then("I Should Login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        public virtual void DataDrivenLogin(string uRL, string user, string passWord, string[] exampleTags)
+        {
+            string[] @__tags = new string[] {
+                    "Example"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DataDrivenLogin", null, @__tags);
+#line 19
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 20
+testRunner.Given(string.Format("I Called The \'{0}\'", uRL), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 21
+testRunner.When(string.Format("I Enter The UserName \'{0}\'", user), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 22
+testRunner.And(string.Format("I Enter The PassWord \'{0}\'", passWord), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("DataDrivenLogin, https://google.co.in", new string[] {
+                "Example"}, SourceLine=24)]
+        public virtual void DataDrivenLogin_HttpsGoogle_Co_In()
+        {
+#line 19
+this.DataDrivenLogin("https://google.co.in", "nag022", "mar1234", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("DataDrivenLogin, https://google.com", new string[] {
+                "Example"}, SourceLine=24)]
+        public virtual void DataDrivenLogin_HttpsGoogle_Com()
+        {
+#line 19
+this.DataDrivenLogin("https://google.com", "nag025", "mar5678", ((string[])(null)));
+#line hidden
         }
         
         [TechTalk.SpecRun.TestRunCleanup()]

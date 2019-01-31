@@ -67,68 +67,70 @@ namespace SpecFlow.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Launch", new string[] {
-                "mytag"}, SourceLine=5)]
+                "mytag"}, SourceLine=2)]
         public virtual void Launch()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Launch", null, new string[] {
                         "mytag"});
-#line 6
+#line 3
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 7
+#line 4
  testRunner.Given("I Called Application URL", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 8
+#line 5
  testRunner.Then("Application Should be Launched", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Login", new string[] {
-                "mytag"}, SourceLine=9)]
+                "mytag"}, SourceLine=6)]
         public virtual void Login()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login", null, new string[] {
                         "mytag"});
-#line 10
+#line 7
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 11
+#line 8
  testRunner.Given("I have Application Opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 12
+#line 9
  testRunner.When("I Enter User Credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 13
+#line 10
  testRunner.Then("I Could able to Login To the Application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Logut", SourceLine=13)]
+        [TechTalk.SpecRun.ScenarioAttribute("Logut", new string[] {
+                "mytag"}, SourceLine=11)]
         public virtual void Logut()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Logut", null, ((string[])(null)));
-#line 14
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Logut", null, new string[] {
+                        "mytag"});
+#line 12
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 15
+#line 13
  testRunner.Given("I Called Logut", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 16
+#line 14
  testRunner.Then("Application Should be LoggedOut", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Close", new string[] {
-                "mytag"}, SourceLine=17)]
+                "mytag"}, SourceLine=15)]
         public virtual void Close()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Close", null, new string[] {
                         "mytag"});
-#line 18
+#line 16
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 19
+#line 17
  testRunner.Given("I have Close Application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 20
+#line 18
  testRunner.Then("Application should be Closed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
