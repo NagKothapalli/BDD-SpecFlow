@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,8 @@ namespace SpecFlow.PageObjectes
        [BeforeTestRun]
         public static void launchApplication()
         {
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            driver = new FirefoxDriver();
             driver.Navigate().GoToUrl("http://newtours.demoaut.com/");
             Console.WriteLine("Launch Application");
             driver.FindElement(By.Name("userName")).SendKeys("nag022");
