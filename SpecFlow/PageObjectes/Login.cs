@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +12,16 @@ namespace SpecFlow.PageObjectes
     [Binding]
     public class Login
     {
+       static IWebDriver driver;
        [BeforeTestRun]
         public static void launchApplication()
         {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://newtours.demoaut.com/");
             Console.WriteLine("Launch Application");
+            driver.FindElement(By.Name("userName")).SendKeys("nag022");
+            driver.FindElement(By.Name("password")).SendKeys("mar1234");
+            driver.FindElement(By.Name("login")).Click();
         }
         [BeforeFeature]
         public static void loginTOApplication()
@@ -23,8 +31,10 @@ namespace SpecFlow.PageObjectes
         [BeforeScenario(Order =1)]
         public static void BeforeScenario1()
         {
+            Exception err = ScenarioContext.Current.TestError;
             FeatureInfo finfo = FeatureContext.Current.FeatureInfo;
             Console.WriteLine("Feature Tilte :" + finfo.Title);
+            Console.WriteLine("Feature Description :" + finfo.Description);
             ScenarioInfo sinfo = ScenarioContext.Current.ScenarioInfo;
             Console.WriteLine("Scenario Tags :" + sinfo.Tags[0]);
             Console.WriteLine("Scenario Tilte :" + sinfo.Title);

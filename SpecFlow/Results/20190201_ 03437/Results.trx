@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9f85f4de-69d6-4200-87f0-54b18a5b669b" name="nk185128@WINNK185128-8AE 2019-02-01 00:34:39" runUser="CORP\nk185128" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9927bd68-913a-4558-840d-a6a83073b48f">
+    <Deployment userDeploymentRoot="C:\WorkSpace\C-Sharp\BDD\SpecFlow\Results\20190201_ 03437" useDefaultDeploymentRoot="false" runDeploymentRoot="nk185128_WINNK185128-8AE 2019-02-01 00_34_39" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-02-01T00:34:39.2695587+05:30" queuing="2019-02-01T00:34:39.6976852+05:30" start="2019-02-01T00:34:39.7999564+05:30" finish="2019-02-01T00:34:40.3785232+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>-&gt; Using app.config
+Launch Application
+Login To Application
+Logout From Application
+Login To Application
+Logout From Application
+Login To Application
+Logout From Application
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ForwardAnEmailWithAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="c87712e2-d23d-d2c4-a680-34a568dadcb7">
+      <Description>ForwardAnEmail With Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="4b3528f2-d3e3-452d-b758-c094de42836e" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Forward</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ForwardFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForwardAnEmailWithAttachment" />
+    </UnitTest>
+    <UnitTest name="ReplyToAnEmailWithoutAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="824e33fa-e60c-1c21-fe32-822bee4f07ea">
+      <Description>ReplyToAnEmail Without Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+      </TestCategory>
+      <Execution id="272c601f-fd89-4b34-acfd-f4d654e80b52" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Reply</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ReplyFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplyToAnEmailWithoutAttachment" />
+    </UnitTest>
+    <UnitTest name="ReplyToAnEmailWithAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="9d26b4c4-bef7-32af-ec57-26aeb7b5753f">
+      <Description>ReplyToAnEmail With Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+      </TestCategory>
+      <Execution id="f3383691-d1fa-4827-9dd6-0bd58eea9fe5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Reply</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ReplyFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplyToAnEmailWithAttachment" />
+    </UnitTest>
+    <UnitTest name="ComposeAndSendAnEmailWithAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="e1acc396-f7bb-9c12-c03f-993a17528026">
+      <Description>ComposeAndSendAnEmail With Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="379201f4-f66f-4677-baf3-631fd0bfaeb7" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Compose</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ComposeFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComposeAndSendAnEmailWithAttachment" />
+    </UnitTest>
+    <UnitTest name="ComposeAndSendAnEmailWithoutAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="2ca4a444-7705-1f57-460f-8e26e2b6430f">
+      <Description>ComposeAndSendAnEmail Without Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="157ebcea-f770-4bef-ad93-249195d91074" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Compose</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ComposeFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComposeAndSendAnEmailWithoutAttachment" />
+    </UnitTest>
+    <UnitTest name="ForwardAnEmailWithoutAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="e29680ff-e0b2-c9d8-7c3d-e75dae48973a">
+      <Description>ForwardAnEmail Without Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="28ae3098-6e6d-418e-8260-7bcbc2ea9be5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Forward</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ForwardFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForwardAnEmailWithoutAttachment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e1acc396-f7bb-9c12-c03f-993a17528026" executionId="379201f4-f66f-4677-baf3-631fd0bfaeb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ca4a444-7705-1f57-460f-8e26e2b6430f" executionId="157ebcea-f770-4bef-ad93-249195d91074" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87712e2-d23d-d2c4-a680-34a568dadcb7" executionId="4b3528f2-d3e3-452d-b758-c094de42836e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e29680ff-e0b2-c9d8-7c3d-e75dae48973a" executionId="28ae3098-6e6d-418e-8260-7bcbc2ea9be5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d26b4c4-bef7-32af-ec57-26aeb7b5753f" executionId="f3383691-d1fa-4827-9dd6-0bd58eea9fe5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="824e33fa-e60c-1c21-fe32-822bee4f07ea" executionId="272c601f-fd89-4b34-acfd-f4d654e80b52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="379201f4-f66f-4677-baf3-631fd0bfaeb7" testId="e1acc396-f7bb-9c12-c03f-993a17528026" testName="ComposeAndSendAnEmailWithAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0317933" startTime="2019-02-01T00:34:39.8290677+05:30" endTime="2019-02-01T00:34:40.2982821+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="379201f4-f66f-4677-baf3-631fd0bfaeb7">
+      <Output>
+        <StdOut>Feature Tilte :Compose
+Feature Description :I Want to Check Scenarios with parameters and examples
+Scenario Tags :Smoke
+Scenario Tilte :ComposeAndSendAnEmail With Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Compose And Send Mail With Attachment
+Before Scenario Step
+ComposeAndSendMail WithAttachment
+-&gt; done: ComposeSteps.WhenIComposeAndSendMailWithAttachment() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+WhenIComposeAndSendMailWithAttachment
+I Could see the sent mesage
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="157ebcea-f770-4bef-ad93-249195d91074" testId="2ca4a444-7705-1f57-460f-8e26e2b6430f" testName="ComposeAndSendAnEmailWithoutAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0009189" startTime="2019-02-01T00:34:40.3002868+05:30" endTime="2019-02-01T00:34:40.3033027+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="157ebcea-f770-4bef-ad93-249195d91074">
+      <Output>
+        <StdOut>Feature Tilte :Compose
+Feature Description :I Want to Check Scenarios with parameters and examples
+Scenario Tags :Smoke
+Scenario Tilte :ComposeAndSendAnEmail Without Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Compose And Send Mail Without Attachment
+Before Scenario Step
+ComposeAndSendMail Without Attachment
+-&gt; done: ComposeSteps.WhenIComposeAndSendMailWithoutAttachment() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+WhenIComposeAndSendMailWithoutAttachment
+I Could see the sent mesage
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b3528f2-d3e3-452d-b758-c094de42836e" testId="c87712e2-d23d-d2c4-a680-34a568dadcb7" testName="ForwardAnEmailWithAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0012729" startTime="2019-02-01T00:34:40.3042981+05:30" endTime="2019-02-01T00:34:40.3093377+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b3528f2-d3e3-452d-b758-c094de42836e">
+      <Output>
+        <StdOut>Feature Tilte :Forward
+Feature Description :
+Scenario Tags :Regression
+Scenario Tilte :ForwardAnEmail With Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Forward An Mail WithAttachment
+Before Scenario Step
+Forward ToAnMail WithoutAttachment
+-&gt; done: ForwardSteps.WhenIForwardAnMailWithAttachment() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+WhenIForwardAnMailWithAttachment
+I Could see the sent mesage
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28ae3098-6e6d-418e-8260-7bcbc2ea9be5" testId="e29680ff-e0b2-c9d8-7c3d-e75dae48973a" testName="ForwardAnEmailWithoutAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0029122" startTime="2019-02-01T00:34:40.3113156+05:30" endTime="2019-02-01T00:34:40.3163312+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28ae3098-6e6d-418e-8260-7bcbc2ea9be5">
+      <Output>
+        <StdOut>Feature Tilte :Forward
+Feature Description :
+Scenario Tags :Regression
+Scenario Tilte :ForwardAnEmail Without Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+And I Saw The Inbox
+Before Scenario Step
+I Saw The Inbox
+-&gt; done: ForwardSteps.GivenISawTheInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Forward An Mail WithoutAttachment
+Before Scenario Step
+Forward ToAnMail WithoutAttachment
+-&gt; done: ForwardSteps.WhenIForwardAnMailWithoutAttachment() (0.0s)
+After Scenario Step
+And I Saw it is correct
+Before Scenario Step
+I Saw it is correct
+-&gt; done: ForwardSteps.WhenISawItIsCorrect() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+And I Saw that it Sent
+Before Scenario Step
+I Saw that it Sent
+-&gt; done: ForwardSteps.ThenISawThatItSent() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+I Saw The Inbox
+WhenIForwardAnMailWithoutAttachment
+I Saw it is correct
+I Could see the sent mesage
+I Saw that it Sent
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3383691-d1fa-4827-9dd6-0bd58eea9fe5" testId="9d26b4c4-bef7-32af-ec57-26aeb7b5753f" testName="ReplyToAnEmailWithAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0016678" startTime="2019-02-01T00:34:40.3183347+05:30" endTime="2019-02-01T00:34:40.3243504+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3383691-d1fa-4827-9dd6-0bd58eea9fe5">
+      <Output>
+        <StdOut>Feature Tilte :Reply
+Feature Description :
+Scenario Tags :Regression
+Scenario Tilte :ReplyToAnEmail With Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Reply To An Email With Attachment
+Before Scenario Step
+Reply ToAnEmail WithAttachment
+-&gt; done: ReplySteps.WhenIReplyToAnEmailWithAttachment() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+WhenIReplyToAnEmailWithAttachment
+I Could see the sent mesage
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="272c601f-fd89-4b34-acfd-f4d654e80b52" testId="824e33fa-e60c-1c21-fe32-822bee4f07ea" testName="ReplyToAnEmailWithoutAttachment" computerName="WINNK185128-8AE" duration="00:00:00.0007993" startTime="2019-02-01T00:34:40.3253532+05:30" endTime="2019-02-01T00:34:40.3283614+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="272c601f-fd89-4b34-acfd-f4d654e80b52">
+      <Output>
+        <StdOut>Feature Tilte :Reply
+Feature Description :
+Scenario Tags :Regression
+Scenario Tilte :ReplyToAnEmail Without Attachment
+Scenario Description :
+Before Scenario 2
+Before Scenario 1
+Before Scenario Block
+Given I Navigated to Inbox
+Before Scenario Step
+Navigate To Inbox
+-&gt; done: ComposeSteps.GivenINavigatedToInbox() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+When I Reply To An Mail Without Attachment
+Before Scenario Step
+Reply ToAnMail WithoutAttachment
+-&gt; done: ReplySteps.WhenIReplyToAnMailWithoutAttachment() (0.0s)
+After Scenario Step
+After Scenario Block
+Before Scenario Block
+Then I Could see the sent mesage
+Before Scenario Step
+Could see the sent mesage
+-&gt; done: ComposeSteps.ThenICouldSeeTheSentMesage() (0.0s)
+After Scenario Step
+After Scenario Block
+After Scenario Method</StdOut>
+        <DebugTrace>I Navigated to Inbox
+WhenIReplyToAnMailWithoutAttachment
+I Could see the sent mesage
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

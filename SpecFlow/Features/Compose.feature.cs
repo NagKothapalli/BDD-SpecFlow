@@ -17,7 +17,7 @@ namespace SpecFlow.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Compose", SourceFile="Features\\Compose.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Compose", Description="I Want to Check Scenarios with parameters and examples", SourceFile="Features\\Compose.feature", SourceLine=0)]
     public partial class ComposeFeature
     {
         
@@ -30,7 +30,7 @@ namespace SpecFlow.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Compose", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Compose", "I Want to Check Scenarios with parameters and examples", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -68,20 +68,20 @@ namespace SpecFlow.Features
         
         [TechTalk.SpecRun.ScenarioAttribute("ComposeAndSendAnEmail Without Attachment", new string[] {
                 "Smoke",
-                "Regression"}, SourceLine=2)]
+                "Regression"}, SourceLine=3)]
         public virtual void ComposeAndSendAnEmailWithoutAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ComposeAndSendAnEmail Without Attachment", null, new string[] {
                         "Smoke",
                         "Regression"});
-#line 3
+#line 4
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 4
- testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
- testRunner.When("I Compose And Send Mail Without Attachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 6
+ testRunner.When("I Compose And Send Mail Without Attachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 7
  testRunner.Then("I Could see the sent mesage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -89,41 +89,41 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("ComposeAndSendAnEmail With Attachment", new string[] {
                 "Smoke",
-                "Regression"}, SourceLine=7)]
+                "Regression"}, SourceLine=8)]
         public virtual void ComposeAndSendAnEmailWithAttachment()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ComposeAndSendAnEmail With Attachment", null, new string[] {
                         "Smoke",
                         "Regression"});
-#line 8
+#line 9
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 9
- testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.When("I Compose And Send Mail With Attachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I Navigated to Inbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 11
+ testRunner.When("I Compose And Send Mail With Attachment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
  testRunner.Then("I Could see the sent mesage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("ParameterizedLogin", new string[] {
-                "Parameter"}, SourceLine=12)]
+                "Parameter"}, Description="I Want to Test Scenario With Parameterization", SourceLine=13)]
         public virtual void ParameterizedLogin()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ParameterizedLogin", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ParameterizedLogin", "I Want to Test Scenario With Parameterization", new string[] {
                         "Parameter"});
-#line 13
+#line 14
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 14
-testRunner.Given("I Launched Application \'https://gmail.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 15
-testRunner.When("I Enter UserName \'nag022\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 16
-testRunner.And("I Enter PassWord\'mar1234\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.Given("I Launched Application \'https://gmail.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 17
+testRunner.When("I Enter UserName \'nag022\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 18
+testRunner.And("I Enter PassWord\'mar1234\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 19
 testRunner.Then("I Should Login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -137,34 +137,34 @@ testRunner.Then("I Should Login", ((string)(null)), ((TechTalk.SpecFlow.Table)(n
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DataDrivenLogin", null, @__tags);
-#line 19
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DataDrivenLogin", "I Want to check scenario with Examples for Data Driven", @__tags);
+#line 21
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 20
+#line 23
 testRunner.Given(string.Format("I Called The \'{0}\'", uRL), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 21
+#line 24
 testRunner.When(string.Format("I Enter The UserName \'{0}\'", user), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 22
+#line 25
 testRunner.And(string.Format("I Enter The PassWord \'{0}\'", passWord), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DataDrivenLogin, https://google.co.in", new string[] {
-                "Example"}, SourceLine=24)]
+                "Example"}, SourceLine=27)]
         public virtual void DataDrivenLogin_HttpsGoogle_Co_In()
         {
-#line 19
+#line 21
 this.DataDrivenLogin("https://google.co.in", "nag022", "mar1234", ((string[])(null)));
 #line hidden
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DataDrivenLogin, https://google.com", new string[] {
-                "Example"}, SourceLine=24)]
+                "Example"}, SourceLine=27)]
         public virtual void DataDrivenLogin_HttpsGoogle_Com()
         {
-#line 19
+#line 21
 this.DataDrivenLogin("https://google.com", "nag025", "mar5678", ((string[])(null)));
 #line hidden
         }

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d9f05aa9-79d6-4aa2-a5b2-662d4358cd86" name="nk185128@WINNK185128-8AE 2019-02-01 00:08:51" runUser="CORP\nk185128" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9264a95b-b48c-4ea2-a2ac-45ebb1290cc1">
+    <Deployment userDeploymentRoot="C:\WorkSpace\C-Sharp\BDD\SpecFlow\Results\20190201_ 00849" useDefaultDeploymentRoot="false" runDeploymentRoot="nk185128_WINNK185128-8AE 2019-02-01 00_08_51" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-02-01T00:08:51.8552100+05:30" queuing="2019-02-01T00:08:52.3495223+05:30" start="2019-02-01T00:08:52.4537934+05:30" finish="2019-02-01T00:08:52.9901951+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ForwardAnEmailWithAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="c87712e2-d23d-d2c4-a680-34a568dadcb7">
+      <Description>ForwardAnEmail With Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="0490affa-3811-46f3-8eb7-71df329e4dad" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Forward</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ForwardFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForwardAnEmailWithAttachment" />
+    </UnitTest>
+    <UnitTest name="ForwardAnEmailWithoutAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="e29680ff-e0b2-c9d8-7c3d-e75dae48973a">
+      <Description>ForwardAnEmail Without Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="4d07d047-060b-4d23-9deb-284bb024121c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Forward</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ForwardFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForwardAnEmailWithoutAttachment" />
+    </UnitTest>
+    <UnitTest name="ComposeAndSendAnEmailWithAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="e1acc396-f7bb-9c12-c03f-993a17528026">
+      <Description>ComposeAndSendAnEmail With Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="112f4016-1376-4afc-9d18-616980d43e72" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Compose</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ComposeFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComposeAndSendAnEmailWithAttachment" />
+    </UnitTest>
+    <UnitTest name="ComposeAndSendAnEmailWithoutAttachment" storage="c:\workspace\c-sharp\bdd\specflow\bin\debug\specflow.dll" id="2ca4a444-7705-1f57-460f-8e26e2b6430f">
+      <Description>ComposeAndSendAnEmail Without Attachment</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="787c20a4-0cef-4f1b-90d4-38f2a88bcfdb" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Compose</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/WorkSpace/C-Sharp/BDD/SpecFlow/bin/Debug/SpecFlow.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlow.Features.ComposeFeature, SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComposeAndSendAnEmailWithoutAttachment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e1acc396-f7bb-9c12-c03f-993a17528026" executionId="112f4016-1376-4afc-9d18-616980d43e72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ca4a444-7705-1f57-460f-8e26e2b6430f" executionId="787c20a4-0cef-4f1b-90d4-38f2a88bcfdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87712e2-d23d-d2c4-a680-34a568dadcb7" executionId="0490affa-3811-46f3-8eb7-71df329e4dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e29680ff-e0b2-c9d8-7c3d-e75dae48973a" executionId="4d07d047-060b-4d23-9deb-284bb024121c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="112f4016-1376-4afc-9d18-616980d43e72" testId="e1acc396-f7bb-9c12-c03f-993a17528026" testName="ComposeAndSendAnEmailWithAttachment" computerName="WINNK185128-8AE" startTime="2019-02-01T00:08:52.5129523+05:30" endTime="2019-02-01T00:08:52.9340448+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="112f4016-1376-4afc-9d18-616980d43e72">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method SpecFlow.Features.ComposeFeature.FeatureSetup threw exception. TechTalk.SpecFlow.SpecFlowException: TechTalk.SpecFlow.SpecFlowException: Unable to load plugin: SpecRun. Please check http://go.specflow.org/doc-plugins for details. ---&gt; System.IO.FileNotFoundException: Could not load file or assembly 'SpecRun.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+ --- End of inner exception stack trace ---
+    at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugin(PluginDescriptor pluginDescriptor, IRuntimePluginLoader pluginLoader, RuntimePluginEvents runtimePluginEvents)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugins(IRuntimeConfigurationProvider configurationProvider, ObjectContainer container, RuntimePluginEvents runtimePluginEvents, SpecFlowConfiguration specFlowConfiguration)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(IRuntimeConfigurationProvider configurationProvider)
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId)
+   at SpecFlow.Features.ComposeFeature.FeatureSetup(TestContext testContext)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="787c20a4-0cef-4f1b-90d4-38f2a88bcfdb" testId="2ca4a444-7705-1f57-460f-8e26e2b6430f" testName="ComposeAndSendAnEmailWithoutAttachment" computerName="WINNK185128-8AE" startTime="2019-02-01T00:08:52.9360674+05:30" endTime="2019-02-01T00:08:52.9380872+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="787c20a4-0cef-4f1b-90d4-38f2a88bcfdb">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method SpecFlow.Features.ComposeFeature.FeatureSetup threw exception. TechTalk.SpecFlow.SpecFlowException: TechTalk.SpecFlow.SpecFlowException: Unable to load plugin: SpecRun. Please check http://go.specflow.org/doc-plugins for details. ---&gt; System.IO.FileNotFoundException: Could not load file or assembly 'SpecRun.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+ --- End of inner exception stack trace ---
+    at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugin(PluginDescriptor pluginDescriptor, IRuntimePluginLoader pluginLoader, RuntimePluginEvents runtimePluginEvents)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugins(IRuntimeConfigurationProvider configurationProvider, ObjectContainer container, RuntimePluginEvents runtimePluginEvents, SpecFlowConfiguration specFlowConfiguration)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(IRuntimeConfigurationProvider configurationProvider)
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId)
+   at SpecFlow.Features.ComposeFeature.FeatureSetup(TestContext testContext)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0490affa-3811-46f3-8eb7-71df329e4dad" testId="c87712e2-d23d-d2c4-a680-34a568dadcb7" testName="ForwardAnEmailWithAttachment" computerName="WINNK185128-8AE" startTime="2019-02-01T00:08:52.9390583+05:30" endTime="2019-02-01T00:08:52.9441032+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0490affa-3811-46f3-8eb7-71df329e4dad">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method SpecFlow.Features.ForwardFeature.FeatureSetup threw exception. TechTalk.SpecFlow.SpecFlowException: TechTalk.SpecFlow.SpecFlowException: Unable to load plugin: SpecRun. Please check http://go.specflow.org/doc-plugins for details. ---&gt; System.IO.FileNotFoundException: Could not load file or assembly 'SpecRun.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+ --- End of inner exception stack trace ---
+    at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugin(PluginDescriptor pluginDescriptor, IRuntimePluginLoader pluginLoader, RuntimePluginEvents runtimePluginEvents)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugins(IRuntimeConfigurationProvider configurationProvider, ObjectContainer container, RuntimePluginEvents runtimePluginEvents, SpecFlowConfiguration specFlowConfiguration)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(IRuntimeConfigurationProvider configurationProvider)
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId)
+   at SpecFlow.Features.ForwardFeature.FeatureSetup(TestContext testContext)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d07d047-060b-4d23-9deb-284bb024121c" testId="e29680ff-e0b2-c9d8-7c3d-e75dae48973a" testName="ForwardAnEmailWithoutAttachment" computerName="WINNK185128-8AE" startTime="2019-02-01T00:08:52.9450732+05:30" endTime="2019-02-01T00:08:52.9470786+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d07d047-060b-4d23-9deb-284bb024121c">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method SpecFlow.Features.ForwardFeature.FeatureSetup threw exception. TechTalk.SpecFlow.SpecFlowException: TechTalk.SpecFlow.SpecFlowException: Unable to load plugin: SpecRun. Please check http://go.specflow.org/doc-plugins for details. ---&gt; System.IO.FileNotFoundException: Could not load file or assembly 'SpecRun.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+ --- End of inner exception stack trace ---
+    at TechTalk.SpecFlow.Plugins.RuntimePluginLoader.LoadPlugin(PluginDescriptor pluginDescriptor)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugin(PluginDescriptor pluginDescriptor, IRuntimePluginLoader pluginLoader, RuntimePluginEvents runtimePluginEvents)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.LoadPlugins(IRuntimeConfigurationProvider configurationProvider, ObjectContainer container, RuntimePluginEvents runtimePluginEvents, SpecFlowConfiguration specFlowConfiguration)
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(IRuntimeConfigurationProvider configurationProvider)
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId)
+   at SpecFlow.Features.ForwardFeature.FeatureSetup(TestContext testContext)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
